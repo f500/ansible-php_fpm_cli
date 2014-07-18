@@ -1,0 +1,7 @@
+---
+
+- name: Install libfcgi
+  apt: pkg=libfcgi0ldbl state=present
+
+- name: Write php-fpm-cli script
+  copy: src=php-fpm-cli dest=/usr/local/bin/php-fpm-cli owner=root group=root mode=0755

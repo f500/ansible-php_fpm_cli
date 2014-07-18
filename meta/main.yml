@@ -1,0 +1,12 @@
+---
+galaxy_info:
+  author: "Jasper N. Brouwer"
+  description: "Install libfcgi and php-fpm-cli, which are needed for the role f500.php_opcache_reset."
+  company: Future500
+  license: LGPLv3
+  min_ansible_version: 1.4
+  platforms:
+    - { name: Debian, versions: [ wheezy ]}
+  categories:
+    - web
+  dependencies: []
