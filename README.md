@@ -14,7 +14,9 @@ Many thanx to [Mathias Leppich][2], who is the author of [`php-fpm-cli`][3] and 
 Requirements
 ------------
 
-None, but this role is only usefull when you use the PHP FPM.
+None (as this role will only install `php-fpm-cli` and `libfcgi`).
+
+To be able to do anything with the `php-fpm-cli` tool, you will need PHP FPM up and running.
 
 
 Role Variables
@@ -37,6 +39,7 @@ Use as is:
     - hosts: servers
       roles:
          - { role: f500.php_fpm_cli }
+
 
 License
 -------
